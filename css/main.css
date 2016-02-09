@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tahoma';
+}
+.wrapper-intro-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f00;
+  display: block;
+  overflow: hidden;
+}
+.wrapper-intro-content .intro-content {
+  width: 750px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #000;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.wrapper-intro-content .intro-content > div {
+  width: 50%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.wrapper-intro-content .intro-content > div .box-text {
+  color: #fff;
+}
+.wrapper-intro-content .intro-content > div.active:before {
+  opacity: 1;
+}
+.wrapper-intro-content .intro-content > div:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.wrapper-intro-content .intro-content > div img {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transform: translate(-50%, -50%) rotate(0.02deg);
+  -moz-transform: translate(-50%, -50%) rotate(0.02deg);
+  -ms-transform: translate(-50%, -50%) rotate(0.02deg);
+  -o-transform: translate(-50%, -50%) rotate(0.02deg);
+  transform: translate(-50%, -50%) rotate(0.02deg);
+  opacity: 0.1;
+}
+.wrapper-intro-content .intro-content > div:nth-child(1) {
+  background-color: #463063;
+}
+.wrapper-intro-content .intro-content > div:nth-child(1) .box-text {
+  position: absolute;
+  z-index: 200;
+  top: 15px;
+  left: 15px;
+  width: 145px;
+  height: 145px;
+  border: 2px solid #fff;
+}
+.wrapper-intro-content .intro-content > div:nth-child(2) {
+  background-color: #0F7473;
+}
+.wrapper-intro-content .intro-content > div:nth-child(2) .box-text {
+  position: absolute;
+  z-index: 200;
+  top: 15px;
+  left: 15px;
+  width: 145px;
+  height: 145px;
+  border: 2px solid #fff;
+}
+.wrapper-intro-content .intro-content > div:nth-child(3) {
+  background-color: #232323;
+}
+.wrapper-intro-content .intro-content > div:nth-child(3) .box-text {
+  position: absolute;
+  z-index: 200;
+  top: 15px;
+  right: 15px;
+  width: 145px;
+  height: 145px;
+  border: 2px solid #fff;
+}
+.wrapper-intro-content .intro-content > div:nth-child(4) {
+  background-color: #B65822;
+}
+.wrapper-intro-content .intro-content > div:nth-child(4) .box-text {
+  position: absolute;
+  z-index: 200;
+  top: 15px;
+  right: 15px;
+  width: 145px;
+  height: 145px;
+  border: 2px solid #fff;
+}
+.wrapper-intro-content .intro-content > div:last-child {
+  width: 100%;
+  height: 100%;
+  max-height: 65px;
+  background: #000;
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.wrapper-intro-content .intro-content > div:last-child:before {
+  background: none;
+}
+.wrapper-intro-content .intro-content > div:last-child > span {
+  float: left;
+}
+.wrapper-intro-content .intro-content > div:last-child > span:nth-child(2) {
+  font-size: 14px;
+  line-height: 14px;
+}
+.wrapper-intro-content .intro-content > div:last-child .gt-website {
+  width: 77px;
+  height: 45px;
+  border-left: 2px solid #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  float: right;
+}
