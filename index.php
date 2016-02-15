@@ -23,43 +23,51 @@
       <div class="wrapper-intro-content">
         <div class="intro-content">
           <div>
-            <img src="http://lorempixel.com/375/250/sports/1" alt="">
+            <img src="images/p1.png" height="225" width="374" alt="">
 
-            <div class="box-text">
-              food pack asia food processing & packaging
+            <div class="box-text c-1">
+              <div class="text-1" >thailand</div> 
+              <div class="text-2" >industrail</div>
+              <div class="text-3" >fair 2016</div>
             </div>
           </div>
           <div>
-            <img src="http://lorempixel.com/375/250/sports/2" alt="">
+            <img src="images/p2.png" height="225" width="374" alt="">
 
-            <div class="box-text">
-              food pack asia food processing & packaging
+            <div class="box-text c-2">
+              <div class="text-3" >food</div> 
+              <div class="text-2" >pack asia</div>
+              <div class="text-1" >rood processing $ packaging</div>
             </div>
 
           </div>
           <div>
-            <img src="http://lorempixel.com/375/250/sports/5" alt="">
+            <img src="images/p3.png" height="225" width="374" alt="">
 
-            <div class="box-text">
-              food pack asia food processing & packaging
+            <div class="box-text c-3">
+              <div class="text-1" >thailand</div> 
+              <div class="text-3" >robot</div>
+              <div class="text-3" >fighting</div>
             </div>
           </div>
           <div>
-            <img src="http://lorempixel.com/375/250/sports/6" alt="">
+            <img src="images/p4.png" height="225" width="374" alt="">
 
-            <div class="box-text">
-              food pack asia food processing & packaging
+            <div class="box-text c-4">
+              <div class="text-3" >3d cake &</div> 
+              <div class="text-2" >chigiri pan</div>
+              <div class="text-1" >championship 2016</div>
             </div>
 
           </div>
 
-          <div>
+          <div class="text-h" >
 
-            <span>3-6 march 2016 10:00-19:00</span>
+            <span class="text-date" >3-6 march 2016</span>
 
-            <span>10:00-19:00 <br> bitec bangkok</span>
+            <span class="show-time" >10:00-19:00 <br> bitec bangkok</span>
 
-            <a href="javascript:;" class="gt-website">
+            <a href="/" class="gt-website">
               go to <br>
               website
             </a>
@@ -98,9 +106,13 @@
           var hv = $(this);
 
           hv.find('img').css({opacity: '1'});
+          hv.find('.box-text').css({color: '#000'});
+          hv.find('.box-text').css({background: 'rgba(255, 255, 255, 0.61) none repeat scroll 0 0'});
           hv.siblings().addClass('active');
         }, function() {
           $(this).find('img').css({opacity: '0.1'});
+          $(this).find('.box-text').css({color: '#fff'});
+          $(this).find('.box-text').css({background: 'none'});
           $(this).siblings().removeClass('active');
         });
 

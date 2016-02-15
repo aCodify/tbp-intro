@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Tahoma';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .wrapper-intro-content {
   position: relative;
@@ -34,6 +34,8 @@ body {
 }
 .wrapper-intro-content .intro-content > div .box-text {
   color: #fff;
+  text-transform: uppercase;
+  line-height: 26px;
 }
 .wrapper-intro-content .intro-content > div.active:before {
   opacity: 1;
@@ -149,4 +151,77 @@ body {
   font-size: 18px;
   line-height: 18px;
   float: right;
+}
+.c-1 {
+  text-align: right;
+}
+.c-1 div {
+  padding-right: 5px;
+}
+.c-2 {
+  text-align: left;
+}
+.c-2 div {
+  padding-left: 5px;
+}
+.c-3 {
+  text-align: right;
+}
+.c-3 div {
+  padding-right: 5px;
+}
+.c-4 {
+  text-align: left;
+}
+.c-4 div {
+  padding-left: 5px;
+}
+.text-2 {
+  font-size: 22px;
+}
+.text-3 {
+  font-size: 25px;
+}
+.text-1 {
+  font-size: 14px;
+}
+.show-time {
+  font-size: 26px !important;
+  line-height: 27px !important;
+  padding: 4px 20px;
+}
+.text-date {
+  font-size: 46px;
+}
+.wrapper-intro-content .intro-content > .text-h::before {
+  position: initial;
+}
+.wrapper-intro-content .intro-content > div:last-child {
+  /* visited link */
+
+  /* mouse over link */
+
+  /* selected link */
+
+}
+.wrapper-intro-content .intro-content > div:last-child a {
+  padding: 9px;
+  font-size: 15px !important;
+  text-decoration: none;
+}
+.wrapper-intro-content .intro-content > div:last-child a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.wrapper-intro-content .intro-content > div:last-child a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.wrapper-intro-content .intro-content > div:last-child a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.wrapper-intro-content .intro-content > div:last-child a:active {
+  color: #fff;
+  text-decoration: none;
 }
